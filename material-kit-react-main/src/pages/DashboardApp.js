@@ -10,12 +10,30 @@ export default function DashboardApp() {
     <Page title="One meta">
       <Container maxWidth="xl">
         <Box sx={{ pb: 5 }}>
-          <Typography variant="h4">Projeto Integrador 1</Typography>
+          <Typography variant="h4">Impactos da água em plantações de arroz</Typography>
         </Box>
         <Grid container spacing={3}>
           <Grid item xs={12}>
-            <Card>
-              <CardHeader title="Lorem Ipsulum" subheader="(+43%) than last year" />
+            <Card sx={{ paddingBottom: 3 }}>
+              <CardHeader title="Quem somos?" />
+            </Card>
+          </Grid>
+
+          <Grid item xs={12}>
+            <Card sx={{ paddingBottom: 3 }}>
+              <CardHeader title="Projeto" />
+            </Card>
+          </Grid>
+
+          <Grid item xs={12}>
+            <Card sx={{ paddingBottom: 3 }}>
+              <CardHeader title="Impactos da qualidade de água" />
+            </Card>
+          </Grid>
+
+          <Grid item xs={12}>
+            <Card sx={{ paddingBottom: 3 }}>
+              <CardHeader title="Vídeo" />
             </Card>
           </Grid>
         </Grid>
