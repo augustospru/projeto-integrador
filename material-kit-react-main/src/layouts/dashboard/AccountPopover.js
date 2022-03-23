@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 // material
 import { alpha } from '@mui/material/styles';
-import { Button, Box, Divider, MenuItem, Typography, Avatar, IconButton } from '@mui/material';
+import { Box, Divider, MenuItem, Typography, Avatar, IconButton } from '@mui/material';
 // components
 import Iconify from '../../components/Iconify';
 import MenuPopover from '../../components/MenuPopover';

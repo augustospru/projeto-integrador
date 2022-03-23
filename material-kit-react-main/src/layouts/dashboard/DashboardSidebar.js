@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 // material
 import { styled } from '@mui/material/styles';
-import { Box, Link, Button, Drawer, Typography, Avatar, Stack } from '@mui/material';
+import { Box, Link, Drawer, Typography, Avatar } from '@mui/material';
 // mocks_
 import account from '../../_mocks_/account';
 // hooks
@@ -31,7 +31,7 @@ const AccountStyle = styled('div')(({ theme }) => ({
   alignItems: 'center',
   padding: theme.spacing(2, 2.5),
   borderRadius: Number(theme.shape.borderRadius) * 1.5,
-  backgroundColor: theme.palette.grey[500_12]
+  backgroundColor: '#A3855B'
 }));
 
 // ----------------------------------------------------------------------
@@ -57,7 +57,8 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
     <Scrollbar
       sx={{
         height: 1,
-        '& .simplebar-content': { height: 1, display: 'flex', flexDirection: 'column' }
+        '& .simplebar-content': { height: 1, display: 'flex', flexDirection: 'column' },
+        bgcolor: '#6C8FA3'
       }}
     >
       <Box sx={{ px: 2.5, py: 3, display: 'inline-flex' }}>

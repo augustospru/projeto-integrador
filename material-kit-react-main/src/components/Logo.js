@@ -12,7 +12,11 @@ Logo.propTypes = {
 export default function Logo({ sx }) {
   return (
     <RouterLink to="/">
-      <Box component="img" src="/favicon/onemeta.png" sx={{ width: 40, height: 40, ...sx }} />
+      <Box
+        component="img"
+        src="/favicon/onemeta.png"
+        sx={{ borderRadius: 50, width: 40, height: 40, ...sx }}
+      />
     </RouterLink>
   );
 }

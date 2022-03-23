@@ -59,9 +59,9 @@ function NavItem({ item, active }) {
   };
 
   const activeRootStyle = {
-    color: 'primary.main',
+    color: 'text.primary',
     fontWeight: 'fontWeightMedium',
-    bgcolor: alpha(theme.palette.primary.main, theme.palette.action.selectedOpacity),
+    bgcolor: alpha(theme.palette.primary.light, 0.4),
     '&:before': { display: 'block' }
   };
 
