@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactPlayer from 'react-player';
 // material
 import { Box, Grid, Container, Typography, Card, CardHeader } from '@mui/material';
 // components
@@ -34,6 +36,9 @@ export default function DashboardApp() {
           <Grid item xs={12}>
             <Card sx={{ paddingBottom: 3 }}>
               <CardHeader title="Vídeo" />
+              <Grid textAlign="-webkit-center">
+                <ReactPlayer url="https://www.youtube.com/watch?v=ZaYvwn9nBD4" />
+              </Grid>
             </Card>
           </Grid>
         </Grid>
