@@ -18,6 +18,7 @@ export default function DashboardApp() {
           <Grid item xs={12}>
             <Card sx={{ paddingBottom: 3 }}>
               <CardHeader title="Quem somos?" />
+              Somos pessoas
             </Card>
           </Grid>
 
@@ -30,6 +31,12 @@ export default function DashboardApp() {
           <Grid item xs={12}>
             <Card sx={{ paddingBottom: 3 }}>
               <CardHeader title="Impactos da qualidade de água" />
+            </Card>
+          </Grid>
+
+          <Grid item xs={12}>
+            <Card sx={{ paddingBottom: 3 }}>
+              <CardHeader title="Impactos da quantidade de água" />
             </Card>
           </Grid>
 
