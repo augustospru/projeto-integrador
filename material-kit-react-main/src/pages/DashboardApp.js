@@ -19,7 +19,7 @@ export default function DashboardApp() {
             <Card sx={{ paddingBottom: 3 }}>
               <CardHeader title="Quem somos?" />
               <Typography sx={{ padding: 3 }}>
-                Somos um grupo da disciplina de Projeto Integrador I da UFSC. Somos formados por 7
+                Somos o grupo One Meta da disciplina de Projeto Integrador I da UFSC. Somos formados por 7
                 membros: Augusto, Bernardo, Bruno, Eduardo, Jayor, Matheus e Yan.
               </Typography>
             </Card>
@@ -86,7 +86,7 @@ export default function DashboardApp() {
             <Card sx={{ paddingBottom: 3 }}>
               <CardHeader title="Vídeo" />
               <Grid textAlign="-webkit-center">
-                <ReactPlayer url="https://www.youtube.com/watch?v=ZaYvwn9nBD4" />
+                <ReactPlayer url="https://youtu.be/uzQFYgiO4u0" />
               </Grid>
             </Card>
           </Grid>
