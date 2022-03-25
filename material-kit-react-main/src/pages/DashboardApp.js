@@ -16,7 +16,7 @@ export default function DashboardApp() {
         </Box>
         <Grid container spacing={3}>
           <Grid item xs={12}>
-            <Card sx={{ paddingBottom: 3 }}>
+            <Card sx={{ paddingBottom: 3, boxShadow: 12 }}>
               <CardHeader title="Quem somos?" />
               <Typography sx={{ padding: 3 }}>
                 Somos o grupo One Meta da disciplina de Projeto Integrador I da UFSC. Somos formados
@@ -26,7 +26,7 @@ export default function DashboardApp() {
           </Grid>
 
           <Grid item xs={12}>
-            <Card sx={{ paddingBottom: 3 }}>
+            <Card sx={{ paddingBottom: 3, boxShadow: 12 }}>
               <CardHeader title="Projeto" />
               <Typography sx={{ padding: 3 }}>
                 A disciplina tinha como foco pesquisar o impacto do uso de água nas plantações de
@@ -36,7 +36,7 @@ export default function DashboardApp() {
           </Grid>
 
           <Grid item xs={12}>
-            <Card sx={{ paddingBottom: 3 }}>
+            <Card sx={{ paddingBottom: 3, boxShadow: 12 }}>
               <CardHeader title="Impactos da qualidade de água" />
               <Typography sx={{ padding: 3 }}>
                 Após o estudo da qualidade de água é possível evidenciar que sua aplicabilidade se
@@ -59,7 +59,7 @@ export default function DashboardApp() {
           </Grid>
 
           <Grid item xs={12}>
-            <Card sx={{ paddingBottom: 3 }}>
+            <Card sx={{ paddingBottom: 3, boxShadow: 12 }}>
               <CardHeader title="Impactos da quantidade de água" />
               <Typography sx={{ padding: 3 }}>
                 A quantidade de água empregada na agricultura irrigada é uma das grandes
@@ -87,7 +87,7 @@ export default function DashboardApp() {
           </Grid>
 
           <Grid item xs={12}>
-            <Card sx={{ paddingBottom: 3 }}>
+            <Card sx={{ paddingBottom: 3, boxShadow: 12 }}>
               <CardHeader title="Vídeo" />
               <Grid textAlign="-webkit-center">
                 <ReactPlayer url="https://youtu.be/uzQFYgiO4u0" />
