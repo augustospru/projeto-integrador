@@ -19,8 +19,8 @@ export default function DashboardApp() {
             <Card sx={{ paddingBottom: 3 }}>
               <CardHeader title="Quem somos?" />
               <Typography sx={{ padding: 3 }}>
-                Somos o grupo One Meta da disciplina de Projeto Integrador I da UFSC. Somos formados por 7
-                membros: Augusto, Bernardo, Bruno, Eduardo, Jayor, Matheus e Yan.
+                Somos o grupo One Meta da disciplina de Projeto Integrador I da UFSC. Somos formados
+                por 7 membros: Augusto, Bernardo, Bruno, Eduardo, Jayor, Matheus e Yan.
               </Typography>
             </Card>
           </Grid>
@@ -28,6 +28,10 @@ export default function DashboardApp() {
           <Grid item xs={12}>
             <Card sx={{ paddingBottom: 3 }}>
               <CardHeader title="Projeto" />
+              <Typography sx={{ padding: 3 }}>
+                A disciplina tinha como foco pesquisar o impacto do uso de água nas plantações de
+                arroz na nossa região da bacia do rio Araranguá.
+              </Typography>
             </Card>
           </Grid>
 
